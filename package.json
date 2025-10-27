@@ -1,0 +1,16 @@
+{
+  "name": "eth-contract-monitor",
+  "version": "1.0.0",
+  "description": "Ethereum contract deposit monitor",
+  "main": "monitor.js",
+  "scripts": {
+    "start": "node monitor.js"
+  },
+  "dependencies": {
+    "ethers": "^6.9.0",
+    "node-telegram-bot-api": "^0.64.0"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
